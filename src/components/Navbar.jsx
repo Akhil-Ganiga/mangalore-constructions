@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="navbar-inner">
         <button
           className="navbar-logo"
-          onClick={() => handleNavigate("/mangalore-constructions")}
+          onClick={() => handleNavigate("/")}
           aria-label="Go to home"
         >
           <span className="logo-mark">C</span>
@@ -34,7 +34,7 @@ const Navbar = () => {
             Home
           </NavLink>
           <NavLink
-            to="/mangalore-constructions/services"
+            to="/services"
             className={({ isActive }) =>
               `nav-link ${isActive ? "nav-link-active" : ""}`
             }
