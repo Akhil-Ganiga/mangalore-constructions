@@ -25,7 +25,7 @@ const Navbar = () => {
         </button>
         <nav className={`navbar-links ${open ? "open" : ""}`}>
           <NavLink
-            to="/"
+            to="/mangalore-constructions"
             className={({ isActive }) =>
               `nav-link ${isActive ? "nav-link-active" : ""}`
             }
@@ -34,7 +34,7 @@ const Navbar = () => {
             Home
           </NavLink>
           <NavLink
-            to="/services"
+            to="/mangalore-constructions/services"
             className={({ isActive }) =>
               `nav-link ${isActive ? "nav-link-active" : ""}`
             }
@@ -43,7 +43,7 @@ const Navbar = () => {
             Services
           </NavLink>
           <NavLink
-            to="/projects"
+            to="/mangalore-constructions/projects"
             className={({ isActive }) =>
               `nav-link ${isActive ? "nav-link-active" : ""}`
             }
@@ -52,7 +52,7 @@ const Navbar = () => {
             Projects
           </NavLink>
           <NavLink
-            to="/faq"
+            to="/mangalore-constructions/faq"
             className={({ isActive }) =>
               `nav-link ${isActive ? "nav-link-active" : ""}`
             }
@@ -61,7 +61,7 @@ const Navbar = () => {
             FAQ
           </NavLink>
           <NavLink
-            to="/contact"
+            to="/mangalore-constructions/contact"
             className={({ isActive }) =>
               `nav-link nav-cta ${isActive ? "nav-link-active" : ""}`
             }
