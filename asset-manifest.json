@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mangalore-constructions/static/css/main.c40d88ad.css",
+    "main.js": "/mangalore-constructions/static/js/main.de0f81fd.js",
+    "static/js/453.e1d23593.chunk.js": "/mangalore-constructions/static/js/453.e1d23593.chunk.js",
+    "index.html": "/mangalore-constructions/index.html",
+    "main.c40d88ad.css.map": "/mangalore-constructions/static/css/main.c40d88ad.css.map",
+    "main.de0f81fd.js.map": "/mangalore-constructions/static/js/main.de0f81fd.js.map",
+    "453.e1d23593.chunk.js.map": "/mangalore-constructions/static/js/453.e1d23593.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c40d88ad.css",
+    "static/js/main.de0f81fd.js"
+  ]
+}
